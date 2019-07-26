@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <!-- ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON -->
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="styleAbout.css">
+
+        <title>StonyTel_TheTeam</title>
+
+    </head>
+
+    <body>
+
+<!-- HEADER-->
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+              </button>
+              <a class="navbar-brand" href="AboutUs.html">Stony Tel</a>
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                  <a href="team.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Learn More <span class="caret"></span></a>
+
+                  <ul class="dropdown-menu">
+                    <li><a href="AboutUs.html">Home</a></li>
+                    <li><a href="SecurityInstillation.html">Security Installation </a></li>
+                    <li><a href="DataCabling.html">Data Cabling</a></li>
+                    <li><a href="PhoneSystems.html">Phone Systems</a></li>
+                    <li><a href="AccessControl.html">Access Control</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="team.html">Meet the Team</a></li>
+                  </ul>
+
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+<!-- JUMBOTRON-->
+        <div class="jumbotron">
+          <div class="container">
+            <h1>Team & Contact</h1>
+            <br>
+            <p><a class="btn btn-primary btn-lg" href="AboutUs.html" role="button"> Home &raquo;</a></p>
+          </div>
+        </div>  
+
+                                            <!-- INFORMATION-->
+
+
+<!-- BackStory -->
+    <div class="container">
+        <div class="col-lg-12">
+            <br>
+            <!-- Images -->
+            <div class="card-container"> 
+
+            </div>
+
+            <!-- Writing -->
+            <h2>About Us</h2>  
+            <center><h3> <b><<<<<<< ENTER WRITING HERE >>>>>></b></h3></center>
+                <style> 
+                h3 {
+                  background-color: orange;
+                }
+                </style>
+        </div>
+   </div>
+
+<!-- Worker information -->
+
+      <div class="container">
+            <div class="col-lg-5">
+                <br>
+                <!-- Images -->
+                <div class="card-container">
+                    <img src="images/profile-pic.jpg" width='100px' height='300px'>
+                </div>
+
+                <!-- Writing -->
+                <h2> <b>< NAME ></b> </h2>             
+                <center><h3> <b><<< ENTER WRITING HERE >>></b></h3></center>
+                <style> 
+                h3 {
+                  background-color: orange;
+                }
+                </style>
+            </div>
+
+            <div class="col-lg-5">
+                <br>
+                <!-- Images -->
+                <div class="card-container"> 
+                        <img src="images/profile-pic.jpg" width='100px' height='300px'>
+                </div>
+
+                <!-- Writing -->
+                <h2> <b>< NAME ></b><h2>      
+                <center><h3> <b><<< ENTER WRITING HERE >>></b></h3></center>
+                <style> 
+                h3 {
+                  background-color: orange;
+                }
+                </style>
+            </div>
+       </div>
+
+
+<!-- Contact -->
+
+       <div class="container">
+        <div class="col-lg-12">
+            <section class="mb-4">
+
+                <!--Section heading-->
+                <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Us</h2>
+                <!--Section description-->
+                <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+                    a matter of hours to help you.</p>
+
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-9 mb-md-0 mb-5">
+                        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                            <!--Grid row-->
+                            <div class="row">
+
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <label for="name" class="">First Name*</label>
+                                        <input type="text" id="first-name" class="form-control" autocomplete="off">
+                                        <p id='Fname-error'></p>
+                                        <style> #Fname-error{color: red; font-weight: bold; font-size: 12px;font-style: italic; } </style>
+                                    </div>
+                                </div>
+
+                                 <!--Grid column-->
+                                 <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <label for="name" class="">Last Name*</label>
+                                        <input type="text" id="last-name" class="form-control" autocomplete="off">
+                                        <p id='Lname-error'></p>
+                                        <style> #Lname-error{color: red; font-weight: bold; font-size: 12px;font-style: italic; } </style>
+                                    </div>
+                                </div>
+                                
+
+                                <!--Grid column-->
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0">
+                                        <label for="email" class="">Email*</label>
+                                        <input type="email" id="email" name="email" class="form-control" autocomplete="off">
+                                        <p id='email-error'></p>
+                                        <style> #email-error{color: red; font-weight: bold; font-size: 12px;font-style: italic; } </style>
+                                        
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+
+                            </div>
+                            <br>
+
+                            <!--Grid row-->
+                            <div class="row">
+
+                                <!--Grid column-->
+                                <div class="col-md-12" >
+
+                                    <div class="md-form">
+                                        <label for="message"> Message* </label>
+                                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" autocomplete="off"></textarea>
+                                        <p id='message-error'></p>
+                                        <style> #message-error{color: red; font-weight: bold; font-size: 12px;font-style: italic; } </style>
+                                        
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </form>
+                        <br>
+
+                        <!-- note* -->
+                        <div class="row">
+                                <div class="col-md-12">
+                                    <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                                </div>
+                        </div>
+
+                        <br>
+
+                        <!-- btn -->
+                        <span class="text-md-left">
+                            <a id='sendBtn' class="btn btn-primary">Send &raquo;</a>
+                            <center><span id='success'></span></center>
+                            <style> #success{color:black; font-size: 14px;font-style: italic; } </style>
+                        </span>
+                        <div class="status"></div>
+                    </div>
+                   
+                    <!--side column-->
+                    <div class="col-md-3 text-center">
+                        <ul class="list-unstyled mb-0">
+                            <li><h2 class="glyphicon glyphicon-pushpin"></h2>
+                                <p>Edmonton, Alberta Canada</p>
+                            </li>
+
+                            <li><h2 class="glyphicon glyphicon-earphone"></h2>
+                                <p>+1 --- --- ----</p>
+                            </li>
+
+                            <li><h2 class="glyphicon glyphicon-envelope"></h2>
+                                <p>stonytel@info.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+
+            </section>
+<!--Section: Contact v.2-->
+        </div>
+       </div>
+
+           
+
+<!-- Footer -->
+
+        <footer id="myFooter">
+            <div class="footer-copyright">
+                <p>© 2019 Copyright Text </p>
+                <p ><a id="contact-link" href="team.html"> Contact Us </a></p>
+                <style> 
+                #contact-link { 
+                  color: white;
+                }
+                #contact-link:hover {
+                  color: darkorange;
+                  text-decoration: none;
+                }
+                </style>
+                
+                <span id= 'media'>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-instagram"></a> 
+                    <a href="#" class="fa fa-google"></a>
+                </span>
+          
+            </div>
+        </footer>
+ 
+      </div>
+
+
+<!-- top btn -->
+<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+
+<!-- JAVA -->
+      <script>
+      
+        $(window).scroll(function() {
+            if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+                $('#return-to-top').fadeIn(200);    // Fade in the arrow
+            } else {
+                $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+            }
+        });
+        $('#return-to-top').click(function() {      // When arrow is clicked
+            $('body,html').animate({
+                scrollTop : 0                       // Scroll to top of body
+            }, 500);
+        });
+
+      </script>
+
+      <script src='main.js'> </script>
+      
+    </body>
+
+</html>
